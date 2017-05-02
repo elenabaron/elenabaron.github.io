@@ -5961,7 +5961,7 @@ img {
 }
 .bold-subtitle {
     font-size: 3em;
-    margin-top: -5em;
+    margin-top: 0em;
 //    font-weight: 700
 }
 @media screen and (max-width: 768px) {
