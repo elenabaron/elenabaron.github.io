@@ -14,10 +14,10 @@
 <title>
 
 
-     404 Page not found 
+     Collections 
 
 </title>
-<link rel="canonical" href="">
+<link rel="canonical" href="/collections/">
 
 
 
@@ -77,7 +77,7 @@ ga('send', 'pageview');
 
 
 
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Elena Barón - Artist" />
+  <link href="/collections/index.xml" rel="alternate" type="application/rss+xml" title="Elena Barón - Artist" />
 
 
 
@@ -88,12 +88,12 @@ ga('send', 'pageview');
 
 <div class="section" id="top">
 
-    <div class="container hero is-medium has-text-centered fade-in one">
-    <h1 class="bold-title is-1">404</h1>
+    <div class="container hero fade-in one">
+    <h1 class="bold-title is-1">elena's Blog</h1>
     </div>
 
-
-<div class="section fade-in two">
+    
+    <div class="section no-padding fade-in two">
 
     <div class="container">
     <hr>
@@ -105,20 +105,15 @@ ga('send', 'pageview');
     </span>
     <div id="nav-menu" class="nav-left nav-menu">
       <span class="nav-item">
-        <a href="/">Main</a>
+        <a href="/#artworks">Artworks</a>
       </span>
       <span class="nav-item">
-        <a href="/#artworks">Artworks</a> 
+        <a href="/">Main</a>
       </span>
     
       <span class="nav-item">
         <a href="/#about">About</a> 
       </span>
-    
-      <span class="nav-item">
-        <a href="/blog">Back to blog</a>
-      </span> 
-    
       <span class="nav-item">
         <a href="/#contact">Contact</a>
       </span>
@@ -131,12 +126,41 @@ ga('send', 'pageview');
 </nav>
 <hr>
     </div>
+       
+    <div class="container">
 
-    <div class="container fade-in two top-pad">
-        Oops! Either you've found a bug (in which case, <a href="mailto:elenabaron@gmail.com">please tell me</a>) or you're just making things up. This page doesn't exist!
+    
+    <h2 class="title is-2 top-pad">Latest Post</h2>
+         
+        <div class="summary">Jan 1, 0001
+            <h3 class="title is-3 strong-post-title"><a href="/collections/all/"></a></h3>
+                <div class="markdown">
+                Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón                                 .
+                
+                <a href="/collections/all/">...Read More</a>
+                
+                </div>
+        </div>
+        
+    
+
+    <h2 class="title is-2 top-pad">All Posts</h2>
+        <ul>
+        
+            
+        
+            
+        
+        </ul>
+
     </div>
 
-<div class="top-pad"><hr></div>
+<div class="container has-text-centered top-pad">
+<hr>
+<a href="/collections/#top"><i class="fa fa-arrow-up"></i></a>
+<hr>
+</div>
+
 <div class="section" id="footer">
     <div class="container has-text-centered">
         
@@ -145,3 +169,16 @@ ga('send', 'pageview');
     </div>
 </div>
 </div>
+</div>
+
+
+<script>
+$('a[href^="\/collections\/#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>

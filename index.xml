@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction</title>
+    <title>Elena Barón - Artist</title>
     <link>/</link>
-    <description>Recent content on Introduction</description>
+    <description>Recent content on Elena Barón - Artist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 May 2017 10:33:01 +0200</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 May 2017 10:33:01 +0200</pubDate>
       
       <guid>/artworks/</guid>
-      <description>Montañas de perros Elena Barón    El sendero blanco de los caracoles rojos Elena Barón    My heaven Elena Barón                                 .gallery { float: right; } .gallery img { width: 100%; height: auto; } .</description>
+      <description>Montañas de perros Elena Barón    El sendero blanco de los caracoles rojos Elena Barón    My heaven Elena Barón                                 .gallery { float: none; display:inline-block; } .gallery img { width: 100%; height: auto; } .</description>
     </item>
     
     <item>
@@ -63,8 +63,7 @@ $ complicated techie code git bash ubuntu &amp;gt;&amp;gt;&amp;gt; return value 
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
       <guid>/contact/</guid>
-      <description>This is where you overcome your social anxiety and let people know how to reach you.
-You could try linking to your email, for instance. Just check it, okay?</description>
+      <description></description>
     </item>
     
     <item>
@@ -73,10 +72,56 @@ You could try linking to your email, for instance. Just check it, okay?</descrip
       <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
       
       <guid>/about/</guid>
-      <description>This is your about me page. Use it to write up a witty and engaging description of yourself.
-You can include your hobbies, favorite foods, photos of your ex-lovers, anything you like.
-You can even include some ipsums:
-Cat ipsum dolor sit amet, i cry and cry and cry unless you pet me, and then maybe i cry just for fun Gate keepers of hell for flop over sniff other cat&amp;rsquo;s butt and hang jaw half open thereafter.</description>
+      <description>Artist born in the cradle of great Spanish painters, Ayamonte (Andalucía). His art is innate, she took her first steps in Seville, where she spent the most of her life, winning his first prize for painting at 6 years of age and receiving his first lessons in art school. In her youth she studied Agricultural Engineering and then moved to Madrid, where he currently resides, to work as an engineer, until he decides to leave everything behind and resume his passion for art.</description>
+    </item>
+    
+    <item>
+      <title>about_OLD</title>
+      <link>/about-_old_complete/</link>
+      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      
+      <guid>/about-_old_complete/</guid>
+      <description>Biography Artist born in the cradle of great Spanish painters, Ayamonte (Andalucía). His art is innate, she took her first steps in Seville, where she spent the most of her life, winning his first prize for painting at 6 years of age and receiving his first lessons in art school. In her youth she studied Agricultural Engineering and then moved to Madrid, where he currently resides, to work as an engineer, until he decides to leave everything behind and resume his passion for art.</description>
+    </item>
+    
+    <item>
+      <title>buy</title>
+      <link>/buy/</link>
+      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      
+      <guid>/buy/</guid>
+      <description>All my artworks for sale are availabe at Saatchi-Art and Artelista.
+You can buy these artworks following this links:
+Saatchi-Art
+Artelista
+&amp;ldquo;I’m yours but free&amp;rdquo;, &amp;ldquo;Sowing the birds&amp;rdquo; and &amp;ldquo;Wild 4&amp;rdquo; are also available at Vetus Art (San Sebastian, Spain)</description>
+    </item>
+    
+    <item>
+      <title>my_links</title>
+      <link>/links/</link>
+      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      
+      <guid>/links/</guid>
+      <description> Next exhibition at the International Contemporary Art Fair of Malaga 2017. At the Palace of Congresses and Exhibitions of Malaga.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/collections/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collections/all/</guid>
+      <description>Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón                                 .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/collections/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collections/home/</guid>
+      <description>Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón    Elena Barón                                 .</description>
     </item>
     
   </channel>
