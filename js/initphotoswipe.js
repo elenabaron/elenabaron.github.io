@@ -1,3 +1,22 @@
+
+var imageShowed = function(image_id) {
+
+    myGoogleAnalyticsId=localStorage.getItem("myGoogleAnalyticsId");
+
+
+    //alert(myGoogleAnalyticsId);
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    //_gaq.push(['_trackEvent', 'visualización', image_id]);
+
+    ga('send', 'event', { 'eventCategory': 'visualizacion-cuadro', 'eventAction': 'Click', 'eventLabel': image_id});
+    //alert("asdf: " + z)
+}
+
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements
@@ -24,12 +43,17 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             size = linkEl.getAttribute('data-size').split('x');
 
+            image_id=linkEl.getAttribute('href').split("/").pop().replace(/\.[^/.]+$/, "")
+
             // create slide object
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+                pid: image_id
             };
+
+
 
 
 
@@ -143,6 +167,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         // define options (if needed)
         options = {
             index: index,
+            history:true, 
+            galleryPIDs:true,
 
             // define gallery index (for URL)
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
@@ -164,7 +190,11 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.listen('afterInit', function() { $('#stickyheader').css({visibility: 'hidden'}) });
+        gallery.listen('destroy', function() { $('#stickyheader').css({visibility: 'visible'}) });
         gallery.init();
+
+
     };
 
     // loop through all gallery elements and bind events
